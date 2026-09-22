@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 export default function SEO({ title, description, path = "/" }) {
-  const fullTitle = title ? `${title} — Nexora` : "Nexora — Build the Future with AI";
+  const fullTitle = title ? `${title} — Nexora AI` : "Nexora — Build the Future with AI";
   return (
     <Helmet>
       <title>{fullTitle}</title>
